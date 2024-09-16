@@ -64,7 +64,7 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  VALUABLE WEBSITES
+                  I AM YOUR
                 </Typography>
                 <Typography
                   sx={{
@@ -74,9 +74,9 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  MADE WITH{" "}
+                  ECOMMERCE{" "}
                   <Box component="span" sx={{ color: "primary.main" }}>
-                    PASSION
+                    GROWTH
                   </Box>
                 </Typography>
                 <Typography
@@ -87,7 +87,7 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  AND DEDICATION
+                  PARTNER
                 </Typography>
               </Box>
               <Typography
@@ -97,7 +97,7 @@ function WorkMethod() {
                   fontSize: { xs: "12px", md: "14px" },
                 }}
               >
-                By working with me you will experience the quality of an agency, combined with personal contact and short lines of communication of a freelancer. I design and develop all my projects fully customized, perfectly tailored to the specific needs of my clients.
+                With over seven years of experience in digital design and e-commerce, I am a creative leader who helps visionary brands enhance their customer journey and increase their conversion rate through user-centered designs.
               </Typography>
               <Typography
                 variant="normal"
@@ -106,7 +106,7 @@ function WorkMethod() {
                   fontSize: { xs: "12px", md: "14px" },
                 }}
               >
-                With 15 years of experience, customers describe me as a true website specialist who has an appropriate solution for every issue. My pragmatic approach and passion for my work often leads to an end product of high quality, without unnecessary high costs.
+                I offer a range of services, from e-commerce design to conversion rate optimization. Whether you’re looking to refresh your website or need a deep-dive into improving your sales funnel, I provide tailored solutions that align with your goals. My approach combines creativity with data-driven insights to ensure every design decision maximizes user engagement and ROI.
               </Typography>
               <Button
                 onClick={() => document.getElementById("work").scrollIntoView({ behavior: "smooth" })}
@@ -115,7 +115,7 @@ function WorkMethod() {
                   fontSize: { xs: "14px", md: "22px" },
                 }}
               >
-                SEE MY WORK
+                SEE SOME OF MY WORK
                 <ArrowForwardIos sx={{ fontSize: { xs: "14px", md: "22px" }, ml: "10px" }} />
               </Button>
             </Box>

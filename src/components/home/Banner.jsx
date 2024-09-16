@@ -71,7 +71,7 @@ function Banner() {
                   marginRight: "20px",
                 }}
               >
-                AFAQ KHAN
+                SAAD KHAN
               </Typography>
               <Typography
                 variant="normal"
@@ -80,7 +80,7 @@ function Banner() {
                   fontSize: { xs: "12px", md: "14px" },
                 }}
               >
-                Web Design & Development since 2010
+                UI/UX, Ecommerce Growth, Creative Direction
               </Typography>
             </Box>
             <Box
@@ -125,22 +125,22 @@ function Banner() {
               <Typography
                 sx={{
                   color: "primary.main",
-                  fontSize: { xs: "60px", md: "120px" },
+                  fontSize: { xs: "60px", md: "100px" },
                   fontWeight: 700,
                   lineHeight: 1,
                 }}
               >
-                WEBSITE DESIGNER
+                ECOMMERCE GROWTH
               </Typography>
               <Typography
                 sx={{
                   color: "secondary.main",
-                  fontSize: { xs: "60px", md: "120px" },
+                  fontSize: { xs: "60px", md: "100px" },
                   fontWeight: 700,
                   lineHeight: 1,
                 }}
               >
-                & DEVELOPER
+                DIGITAL DESIGN
               </Typography>
             </Box>
             <Typography
@@ -151,7 +151,7 @@ function Banner() {
                 fontWeight: 400,
               }}
             >
-              I help entrepreneurs and businesses grow online by designing and building custom WordPress websites. From design to scalable code development, I manage the entire process from A to Z, always incorporating the latest trends and developments.
+              As a conversion-focused UI/UX designer, I help e-commerce businesses thrive by crafting intuitive, high-converting websites. With years of experience working alongside multi-million-dollar brands, I bring a deep understanding of CRO and user-centric design to every project. My passion? Helping businesses not just look good online but drive real results.
             </Typography>
             <Button
               onClick={() => scrollToContact("work-method")}
@@ -160,7 +160,7 @@ function Banner() {
                 fontSize: { xs: "14px", md: "22px" },
               }}
             >
-              DISCOVER MY WORKING METHOD
+              MORE ABOUT ME
               <ArrowForwardIos sx={{ fontSize: { xs: "14px", md: "22px" }, ml: "10px" }} />
             </Button>
           </Box>

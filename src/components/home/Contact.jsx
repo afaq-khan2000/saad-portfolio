@@ -62,7 +62,7 @@ function Contact() {
                     letterSpacing: "4px",
                   }}
                 >
-                  LET'S WORK
+                  LET'S
                 </Typography>
                 <Typography
                   sx={{
@@ -73,17 +73,7 @@ function Contact() {
                     letterSpacing: "4px",
                   }}
                 >
-                  TOGETHER
-                </Typography>
-                <Typography
-                  variant="normal"
-                  sx={{
-                    color: "secondary.main",
-                    fontSize: { xs: "12px", md: "14px" },
-                    mt: "40px",
-                  }}
-                >
-                  Got a cool project to discuss or curious to learn more about my approach and services? Let's talk!
+                  COLLABORATE
                 </Typography>
               </Box>
               <Box
@@ -93,7 +83,7 @@ function Contact() {
                   backgroundColor: "primary.background",
                   mt: "40px",
                   height: "150px",
-                //   width: "400px",
+                  //   width: "400px",
                   gap: "20px",
                   //   p: "20px",
                   borderRadius: "10px",
@@ -114,20 +104,28 @@ function Contact() {
                 />
                 <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: "10px" }}>
                   <Typography variant="bebus" sx={{ color: "secondary.main", fontSize: { md: "24px", xs: "20px" }, letterSpacing: "-1px", fontWeight: 700 }}>
-                    AFAQ KHAN
+                    SAAD K.
                   </Typography>
                   <Box sx={{ display: "flex", flexDirection: "column", gap: "5px" }}>
-                    <Typography variant="normal" sx={{ color: "secondary.main", fontSize: { md: "12px", xs: "12px" } }}>
-                      kafaq885@gmail.com
+                    <Typography
+                      variant="normal"
+                      sx={{
+                        cursor: "pointer",
+                        color: "secondary.main",
+                        fontSize: { md: "12px", xs: "12px" },
+                      }}
+                      onClick={() => window.open("mailto:m_saadkhan@outlook.com")}
+                    >
+                      m_saadkhan@outlook.com
                     </Typography>
                     <Typography variant="normal" sx={{ color: "secondary.main", fontSize: { md: "12px", xs: "12px" } }}>
-                      +92 321 1467307
+                      +92 323 7507435
                     </Typography>
                   </Box>
                   <Box sx={{ display: "flex", gap: "10px" }}>
-                    <Instagram onClick={() => window.open("https://www.instagram.com/afaq_khan2000/")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
-                    <GitHub onClick={() => window.open("https://github.com/afaq-khan2000")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
-                    <LinkedIn onClick={() => window.open("https://www.linkedin.com/in/afaq-khan-2a327a198/")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
+                    {/* <Instagram onClick={() => window.open("https://www.instagram.com/afaq_khan2000/")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
+                    <GitHub onClick={() => window.open("https://github.com/afaq-khan2000")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} /> */}
+                    <LinkedIn onClick={() => window.open("https://www.linkedin.com/in/saad-khan5")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
                   </Box>
                 </Box>
               </Box>

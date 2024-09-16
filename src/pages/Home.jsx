@@ -13,7 +13,7 @@ function Home() {
       <Banner />
       <WorkMethod />
       <Work />
-      <Faqs />
+      {/* <Faqs /> */}
       <Contact />
     </Box>
   );

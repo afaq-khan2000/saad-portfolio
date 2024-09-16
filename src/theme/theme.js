@@ -5,7 +5,7 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#61fc65",
+      main: "#66FCF1",
       background: "#202020",
       lightGray: "#505050",
     },
@@ -41,7 +41,7 @@ const theme = createTheme({
           textTransform: "none",
           height: "40px",
           ...(ownerState.variant === "primary" && {
-            backgroundColor: "#61fc65",
+            backgroundColor: "#66FCF1",
             borderRadius: "50px",
             color: "#000000",
             fontSize: "12px",
@@ -70,18 +70,18 @@ const theme = createTheme({
             fontWeight: 700,
             px: "20px",
             "&:hover": {
-              backgroundColor: "#61fc65",
+              backgroundColor: "#66FCF1",
               color: "#000000",
-              border: "2px solid #61fc65",
+              border: "2px solid #66FCF1",
             },
             "&:active": {
-              backgroundColor: "#61fc65",
+              backgroundColor: "#66FCF1",
               color: "#000000",
               border: "none",
               outline: "none",
             },
             "&:focus": {
-              backgroundColor: "#61fc65",
+              backgroundColor: "#66FCF1",
               color: "#000000",
               border: "none",
               outline: "none",
@@ -90,7 +90,7 @@ const theme = createTheme({
           ...(ownerState.variant === "hover-btn" && {
             fontFamily: "Tusker 3800",
             backgroundColor: "transparent",
-            color: "#61fc65",
+            color: "#66FCF1",
             letterSpacing: "2px",
             fontWeight: 700,
             borderRadius: "0px",
@@ -106,7 +106,7 @@ const theme = createTheme({
                 bottom: 0,
                 height: "2px",
                 width: "100%",
-                backgroundColor: "#61fc65",
+                backgroundColor: "#66FCF1",
                 transition: "width 0.3s",
                 transitionTimingFunction: "cubic-bezier(0.25, 1, 0.5, 1)",
               },
@@ -120,7 +120,7 @@ const theme = createTheme({
                 bottom: 0,
                 height: "2px",
                 width: "100%",
-                backgroundColor: "#61fc65",
+                backgroundColor: "#66FCF1",
                 transition: "width 0.3s",
                 transitionTimingFunction: "cubic-bezier(0.25, 1, 0.5, 1)",
                 border: "none",
@@ -135,7 +135,7 @@ const theme = createTheme({
                 bottom: 0,
                 height: "2px",
                 width: "100%",
-                backgroundColor: "#61fc65",
+                backgroundColor: "#66FCF1",
                 transition: "width 0.3s",
                 transitionTimingFunction: "cubic-bezier(0.25, 1, 0.5, 1)",
                 border: "none",

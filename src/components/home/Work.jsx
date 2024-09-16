@@ -141,7 +141,7 @@ function Work() {
               gap: "10px",
               my: { xs: "20px", md: "60px" },
               textAlign: { xs: "left", md: "center" },
-              mb: { xs: "80px", md: "0px" },
+              mb: { xs: "80px", md: "60px" },
             }}
             data-aos="fade-up"
           >
