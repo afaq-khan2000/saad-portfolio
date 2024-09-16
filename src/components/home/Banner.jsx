@@ -34,7 +34,8 @@ function Banner() {
           bottom: 0,
           backgroundImage: `url(${bannerBg})`,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          // a little right on xs screen
+          backgroundPosition: { xs: "left", md: "center" },
           backgroundRepeat: "no-repeat",
           // filter: "brightness(0.2)",
           zIndex: 1,

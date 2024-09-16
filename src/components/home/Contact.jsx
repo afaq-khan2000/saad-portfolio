@@ -14,7 +14,7 @@ function Contact() {
         // width: "calc(100vw - 20px)",
         // width: { xs: "100vw", md: "calc(100vw - 20px)" },
         backgroundColor: "secondary.background",
-        mt: "100px",
+        // mt: "100px",
         py: "50px",
       }}
     >
@@ -42,7 +42,7 @@ function Contact() {
           zIndex: 2,
         }}
       >
-        <Box sx={{ py: { xs: "10px", md: "30px" }, px: { xs: "10px", lg: "90px" } }}>
+        <Box sx={{ py: { xs: "10px", md: "60px" }, px: { xs: "10px", lg: "90px" } }}>
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
             <Box
               sx={{
@@ -185,10 +185,10 @@ function Contact() {
                 src={ContactImg}
                 alt="contact"
                 sx={{
+                  height: "600px",
                   width: "100%",
-                  height: "auto",
-                  objectFit: "contain",
-                  filter: "grayscale(100%) brightness(0.7)",
+                  objectFit: "cover",
+                  // filter: "grayscale(100%) brightness(0.7)",
                   borderRadius: "10px",
                 }}
               />

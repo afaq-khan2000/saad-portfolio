@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Box, Button, Container, Typography } from "@mui/material";
-import { WorkProcess } from "../../assets/images";
+import { DP } from "../../assets/images";
 import { ArrowForwardIos } from "@mui/icons-material";
 
 function WorkMethod() {
@@ -24,7 +24,7 @@ function WorkMethod() {
           zIndex: 2,
         }}
       >
-        <Box sx={{ py: { xs: "10px", md: "30px" }, px: { xs: "10px", lg: "90px" } }}>
+        <Box sx={{ py: { xs: "40px", md: "60px" }, px: { xs: "10px", lg: "90px" } }}>
           <Box sx={{ display: "flex", alignItems: "center", gap: "10px", flexDirection: { xs: "column", md: "row" } }}>
             {/* LEFT SIDE */}
 
@@ -39,7 +39,7 @@ function WorkMethod() {
               </Box>
               <Box
                 component={"img"}
-                src={WorkProcess}
+                src={DP}
                 alt="work process"
                 sx={{
                   filter: "grayscale(100%)",
