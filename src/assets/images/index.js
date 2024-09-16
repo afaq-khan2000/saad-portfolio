@@ -1,0 +1,15 @@
+export { default as bannerBg } from './bg.avif';
+export { default as NavLogo } from './nav-logo.svg';
+export { default as WorkProcess } from './my-work.jpeg';
+export { default as Case1 } from './case1.avif';
+export { default as Case2 } from './cas2.avif';
+export { default as Case3 } from './case3.avif';
+export { default as Case4 } from './case4.avif';
+export { default as Case5 } from './case5.avif';
+export { default as Case6 } from './case6.avif';
+export { default as Case7 } from './case7.avif';
+export { default as Case8 } from './case8.avif';
+export { default as Case9 } from './case9.avif';
+export { default as FAQ1 } from './faq.jpeg';
+export { default as ContactImg } from './contact.jpeg';
+export { default as DP } from './dp.jpg';
