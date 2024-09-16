@@ -48,15 +48,15 @@ const theme = createTheme({
             fontWeight: 700,
             px: "20px",
             "&:hover": {
-              backgroundColor: "#4eeb4f",
+              backgroundColor: "#66FCF1",
             },
             "&:active": {
-              backgroundColor: "#4eeb4f",
+              backgroundColor: "#66FCF1",
               border: "none",
               outline: "none",
             },
             "&:focus": {
-              backgroundColor: "#4eeb4f",
+              backgroundColor: "#66FCF1",
               border: "none",
               outline: "none",
             },

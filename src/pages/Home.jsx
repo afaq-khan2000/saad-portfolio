@@ -12,7 +12,7 @@ function Home() {
     >
       <Banner />
       <WorkMethod />
-      <Work />
+      {/* <Work /> */}
       {/* <Faqs /> */}
       <Contact />
     </Box>

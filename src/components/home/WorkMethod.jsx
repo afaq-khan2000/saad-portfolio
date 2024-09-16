@@ -32,8 +32,8 @@ function WorkMethod() {
               <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end", gap: "10px" }}>
                 {/* Vertical Text */}
                 <Box sx={{ width: "1px", height: "70px", backgroundColor: "primary.main" }} />
-                <Typography variant="bebus" sx={{ color: "secondary.main", fontSize: { xs: "12px", md: "14px" }, writingMode: "vertical-rl", textOrientation: "sideways-lr", transform: "rotate(180deg)", letterSpacing: "2px", fontWeight: 700 }}>
-                  Freelance web designer & developer
+                <Typography sx={{ color: "secondary.main", fontSize: { xs: "12px", md: "18px" }, writingMode: "vertical-rl", textOrientation: "sideways-lr", transform: "rotate(180deg)", letterSpacing: "3px", fontWeight: 400 }}>
+                  UI/UX, Ecommerce Growth, Creative Direction
                   {/* a vertical green line */}
                 </Typography>
               </Box>
@@ -64,7 +64,10 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  I AM YOUR
+                  I AM YOUR{" "}
+                  <Box component="span" sx={{ color: "primary.main" }}>
+                    ECOMMERCE
+                  </Box>
                 </Typography>
                 <Typography
                   sx={{
@@ -74,12 +77,12 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  ECOMMERCE{" "}
                   <Box component="span" sx={{ color: "primary.main" }}>
                     GROWTH
-                  </Box>
+                  </Box>{" "}
+                  PARTNER
                 </Typography>
-                <Typography
+                {/* <Typography
                   sx={{
                     color: "primary.main",
                     fontSize: { xs: "60px", lg: "80px" },
@@ -88,7 +91,7 @@ function WorkMethod() {
                   }}
                 >
                   PARTNER
-                </Typography>
+                </Typography> */}
               </Box>
               <Typography
                 variant="normal"
@@ -108,7 +111,7 @@ function WorkMethod() {
               >
                 I offer a range of services, from e-commerce design to conversion rate optimization. Whether you’re looking to refresh your website or need a deep-dive into improving your sales funnel, I provide tailored solutions that align with your goals. My approach combines creativity with data-driven insights to ensure every design decision maximizes user engagement and ROI.
               </Typography>
-              <Button
+              {/* <Button
                 onClick={() => document.getElementById("work").scrollIntoView({ behavior: "smooth" })}
                 variant="hover-btn"
                 sx={{
@@ -117,7 +120,7 @@ function WorkMethod() {
               >
                 SEE SOME OF MY WORK
                 <ArrowForwardIos sx={{ fontSize: { xs: "14px", md: "22px" }, ml: "10px" }} />
-              </Button>
+              </Button> */}
             </Box>
           </Box>
         </Box>

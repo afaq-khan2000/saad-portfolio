@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactImg, DP } from "../../assets/images";
+import { Behance, ContactImg, DP } from "../../assets/images";
 import { Box, Container, Typography } from "@mui/material";
 import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 
@@ -75,6 +75,16 @@ function Contact() {
                 >
                   COLLABORATE
                 </Typography>
+                <Typography
+                  variant="normal"
+                  sx={{
+                    color: "secondary.main",
+                    fontSize: { xs: "12px", md: "14px" },
+                    mt: "40px",
+                  }}
+                >
+                  Let’s build something great together! Whether you’re ready to start a new project or want to explore how I can help your business grow, feel free to reach out. I’m always excited to connect with innovative brands looking to elevate their online experience
+                </Typography>
               </Box>
               <Box
                 sx={{
@@ -113,6 +123,9 @@ function Contact() {
                         cursor: "pointer",
                         color: "secondary.main",
                         fontSize: { md: "12px", xs: "12px" },
+                        "&:hover": {
+                          color: "primary.main",
+                        },
                       }}
                       onClick={() => window.open("mailto:m_saadkhan@outlook.com")}
                     >
@@ -125,7 +138,31 @@ function Contact() {
                   <Box sx={{ display: "flex", gap: "10px" }}>
                     {/* <Instagram onClick={() => window.open("https://www.instagram.com/afaq_khan2000/")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
                     <GitHub onClick={() => window.open("https://github.com/afaq-khan2000")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} /> */}
-                    <LinkedIn onClick={() => window.open("https://www.linkedin.com/in/saad-khan5")} sx={{ color: "secondary.main", cursor: "pointer", fontSize: "20px" }} />
+                    <LinkedIn
+                      onClick={() => window.open("https://www.linkedin.com/in/saad-khan5")}
+                      sx={{
+                        color: "secondary.main",
+                        cursor: "pointer",
+                        fontSize: "20px",
+                        "&:hover": {
+                          transform: "scale(1.1)",
+                        },
+                      }}
+                    />
+                    <Box
+                      component={"img"}
+                      src={Behance}
+                      alt="behance"
+                      sx={{
+                        width: "20px",
+                        height: "20px",
+                        cursor: "pointer",
+                        "&:hover": {
+                          transform: "scale(1.1)",
+                        },
+                      }}
+                      onClick={() => window.open("https://www.behance.net/saad_khan")}
+                    />
                   </Box>
                 </Box>
               </Box>

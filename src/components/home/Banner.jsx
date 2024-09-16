@@ -36,7 +36,7 @@ function Banner() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          filter: "brightness(0.2)",
+          // filter: "brightness(0.2)",
           zIndex: 1,
         }}
       />
@@ -48,9 +48,8 @@ function Banner() {
         }}
       >
         <Box sx={{ py: { xs: "10px", md: "30px" }, px: { xs: "10px", md: "30px" } }}>
-          <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "space-between" }, alignItems: { xs: "center", md: "center" } }}>
-            <Box sx={{ display: "flex", alignItems: "center" }}>
-              {/* <Box
+          <Box sx={{ display: "flex", flexDirection: { xs: "row", md: "row" }, justifyContent: { xs: "space-between" }, alignItems: { xs: "center", md: "center" } }}>
+            <Box
                 component="img"
                 src={NavLogo}
                 alt="logo"
@@ -58,55 +57,24 @@ function Banner() {
                   width: "100px",
                   height: "auto",
                   objectFit: "contain",
-                  marginRight: "20px",
                 }}
-              /> */}
-              <Typography
-                variant="bebus"
-                sx={{
-                  color: "secondary.main",
-                  fontSize: { md: "36px", xs: "12px" },
-                  letterSpacing: { md: "-3px", xs: "-1px" },
-                  fontWeight: 700,
-                  marginRight: "20px",
-                }}
-              >
-                SAAD KHAN
-              </Typography>
-              <Typography
-                variant="normal"
-                sx={{
-                  color: "secondary.main",
-                  fontSize: { xs: "12px", md: "14px" },
-                }}
-              >
-                UI/UX, Ecommerce Growth, Creative Direction
-              </Typography>
-            </Box>
-            <Box
+              />
+            {/* <Typography
+              variant="bebus"
               sx={{
-                display: "flex",
-                gap: "10px",
-                alignSelf: { xs: "center", md: "center" },
-                mt: { xs: "20px", md: 0 },
+                color: "secondary.main",
+                fontSize: { md: "36px", xs: "20px" },
+                letterSpacing: { md: "-3px", xs: "-1px" },
+                fontWeight: 700,
+                marginRight: "20px",
               }}
             >
-              <Button variant="secondary" onMouseEnter={() => setAvailableBtnBgColor("#000")} onMouseLeave={() => setAvailableBtnBgColor("primary.main")}>
-                <Box
-                  sx={{
-                    width: "10px",
-                    height: "10px",
-                    borderRadius: "50%",
-                    backgroundColor: availableBtnBgColor,
-                    marginRight: "10px",
-                  }}
-                />
-                Available
-              </Button>
-              <Button variant="primary" onClick={() => scrollToContact("contact")}>
-                CONTACT
-              </Button>
-            </Box>
+              SAAD KHAN
+            </Typography> */}
+
+            <Button variant="primary" onClick={() => scrollToContact("contact")}>
+              CONTACT
+            </Button>
           </Box>
 
           {/* TEXT */}
