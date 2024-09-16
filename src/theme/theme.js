@@ -23,7 +23,7 @@ const theme = createTheme({
       lineHeight: 1.5,
     },
     bebus: {
-      fontFamily: "Bebas Neue Pro, serif",
+      fontFamily: "Bebas Neue Pro, sans-serif",
       letterSpacing: "1px",
       lineHeight: 1.5,
     },

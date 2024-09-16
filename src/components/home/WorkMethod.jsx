@@ -31,8 +31,8 @@ function WorkMethod() {
             <Box sx={{ display: "flex", gap: "10px", textTransform: "uppercase" }}>
               <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end", gap: "10px" }}>
                 {/* Vertical Text */}
-                <Box sx={{ width: "1px", height: "70px", backgroundColor: "primary.main" }} />
-                <Typography sx={{ color: "secondary.main", fontSize: { xs: "12px", md: "18px" }, writingMode: "vertical-rl", textOrientation: "sideways-lr", transform: "rotate(180deg)", letterSpacing: "3px", fontWeight: 400 }}>
+                <Box sx={{ width: "5px", height: "70px", backgroundColor: "primary.main" }} />
+                <Typography sx={{ color: "secondary.main", fontSize: { xs: "20px", md: "24px" }, writingMode: "vertical-rl", textOrientation: "sideways-lr", transform: "rotate(180deg)", letterSpacing: "1px", fontWeight: 700 }}>
                   UI/UX, Ecommerce Growth, Creative Direction
                   {/* a vertical green line */}
                 </Typography>
@@ -64,10 +64,17 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  I AM YOUR{" "}
-                  <Box component="span" sx={{ color: "primary.main" }}>
-                    ECOMMERCE
-                  </Box>
+                  I AM YOUR
+                </Typography>
+                <Typography
+                  sx={{
+                    color: "primary.main",
+                    fontSize: { xs: "60px", lg: "80px" },
+                    fontWeight: 700,
+                    lineHeight: 1,
+                  }}
+                >
+                  ECOMMERCE
                 </Typography>
                 <Typography
                   sx={{
@@ -77,21 +84,8 @@ function WorkMethod() {
                     lineHeight: 1,
                   }}
                 >
-                  <Box component="span" sx={{ color: "primary.main" }}>
-                    GROWTH
-                  </Box>{" "}
-                  PARTNER
+                  GROWTH PARTNER
                 </Typography>
-                {/* <Typography
-                  sx={{
-                    color: "primary.main",
-                    fontSize: { xs: "60px", lg: "80px" },
-                    fontWeight: 700,
-                    lineHeight: 1,
-                  }}
-                >
-                  PARTNER
-                </Typography> */}
               </Box>
               <Typography
                 variant="normal"

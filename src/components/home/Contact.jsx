@@ -51,6 +51,7 @@ function Contact() {
                 width: { xs: "100%", md: "50%" },
                 pr: { xs: "0px", lg: "180px" },
               }}
+              data-aos="fade-right"
             >
               <Box sx={{ display: "flex", flexDirection: "column" }}>
                 <Typography
@@ -113,7 +114,18 @@ function Contact() {
                   }}
                 />
                 <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: "10px" }}>
-                  <Typography variant="bebus" sx={{ color: "secondary.main", fontSize: { md: "24px", xs: "20px" }, letterSpacing: "-1px", fontWeight: 700 }}>
+                  <Typography
+                    sx={{
+                      cursor: "pointer",
+                      color: "secondary.main",
+                      fontSize: { md: "24px", xs: "20px" },
+                      letterSpacing: "1px",
+                      fontWeight: 700,
+                      "&:hover": {
+                        color: "primary.main",
+                      },
+                    }}
+                  >
                     SAAD K.
                   </Typography>
                   <Box sx={{ display: "flex", flexDirection: "column", gap: "5px" }}>
@@ -167,7 +179,7 @@ function Contact() {
                 </Box>
               </Box>
             </Box>
-            <Box sx={{ width: "50%", display: { xs: "none", md: "block" } }}>
+            <Box sx={{ width: "50%", display: { xs: "none", md: "block" } }} data-aos="fade-left">
               <Box
                 component="img"
                 src={ContactImg}
