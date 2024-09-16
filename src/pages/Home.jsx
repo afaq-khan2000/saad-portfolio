@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { Banner, Contact, Faqs, Work, WorkMethod } from "../components/home";
+import { Banner, Contact, WorkMethod } from "../components/home";
 
 function Home() {
   return (
@@ -12,8 +12,6 @@ function Home() {
     >
       <Banner />
       <WorkMethod />
-      {/* <Work /> */}
-      {/* <Faqs /> */}
       <Contact />
     </Box>
   );
